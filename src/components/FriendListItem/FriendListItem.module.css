@@ -1,0 +1,26 @@
+.status {
+  height: 0px;
+  margin-right: 10px;
+  width: 0px;
+  border-radius: 50%;
+}
+
+.true {
+  border: 15px solid green;
+}
+
+.false {
+  border: 15px solid red;
+}
+
+.avatar {
+  width: 200px;
+  height: 90%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 700;
+}
