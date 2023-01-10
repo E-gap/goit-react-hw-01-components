@@ -4,7 +4,7 @@ import css from './FriendListItem.module.css';
 export default function FriendListItem({ avatar, isOnline, name }) {
   return (
     <>
-      <span className={`${css.status} ${css[isOnline]}`}>{isOnline}</span>
+      <span className={`${css.status} ${css[isOnline]}`}></span>
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
       <p className={css.name}>{name}</p>
     </>
